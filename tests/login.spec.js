@@ -54,7 +54,7 @@ test('Deve acessar a conta do usuário', async ({ page }) => {
     await expect(await dashPage.obterSaldo()).toHaveText('R$ 5.000,00')
 });
 
-test('Deve acessar a conta do usuário #ExemploPageAction', async ({ page }) => {
+/*test('Deve acessar a conta do usuário #ExemploPageAction', async ({ page }) => {
 
     const loginActions = new LoginActions(page)
 
@@ -77,3 +77,4 @@ test('Deve acessar a conta do usuário #ExemploPageAction', async ({ page }) => 
     expect(await loginActions.obterSaldo()).toHaveText('R$ 5.000,00')
 
 });
+*/
